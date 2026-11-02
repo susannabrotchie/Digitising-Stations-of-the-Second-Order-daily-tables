@@ -1,0 +1,605 @@
+global_metadata:
+  source: "Brotchie et al. (in prep.)"
+  link: ""
+
+hours_of_observation:
+  defaults:
+    - date_range: {start: 1873-01-01, end: 1874-07-31}
+      time_zone: "local time"
+      general: ["08:00", "16:00", "00:00"]
+      rr: ["08:00"]
+      Tn: ["08:00"]
+      Tx: ["08:00"]
+    - date_range: {start: 1874-09-01, end: 1921-12-31}
+    # Front matter of 1874 volume writes:
+      # after July 31st 1874 observing hours were changed to 9a/pm
+      # but August table still has 3 observing hours for all variables
+      time_zone: "local time"
+      general: ["09:00", "21:00"]
+      rr: ["09:00"]
+      Tn: ["21:00"]
+      Tx: ["21:00"]
+      TGn: ["21:00"] # assumed
+  exceptions:
+    - station: ["durham"]
+      year_range: {start: 1877, end: 1880} #no mention in 1879 volume
+      general: ["10:00", "22:00"]
+      rr: ["10:00"]
+      Tn: ["22:00"]
+      Tx: ["22:00"]
+    - station: ["oscott"]
+      date_range: {start: 1875-01-01, end: 1875-01-31}
+      Tn: ["09:00"] 
+      Tx: ["09:00"]
+    - station: ["southampton"]
+      year_range: 1878
+      rr: ["09:30"] 
+      Tn: ["09:30"] 
+      Tx: ["09:30"]
+    - station: ["stonyhurst"] 
+      year_range: {start: 1887, end: 1896}
+      rr: ["10:00"]
+    - station: ["laudale"]
+      year_range: {start: 1879, end: 1881}
+      Tn: ["09:00"]
+    - station: ["wolfelee"]
+      year_range: {start: 1887, end: 1889}
+      Tn: ["09:00"]
+      Tx: ["09:00"]
+    - station: ["aberdeen", "kew", "falmouth", "braemar", "dundee", "wolfelee", "dunrobin castle"]
+    # while fort william and valencia are mentioned in the front matter as part of this list, they are only monthly stations for these year_range
+    # as such have not included them here
+      year_range: {start: 1897, end: 1898}
+      general: ["09:00", "21:00"]
+      Tn, Tx: ["22:00"] # NOTE: only for 1897,1898
+      cloud: ["10:00","22:00"]
+      rr: ["10:00"]
+    - station: ["aberdeen", "kew", "falmouth", "braemar", "dundee", "wolfelee", "dunrobin castle"]
+      year_range: {start: 1899, end: 1908}
+      general: ["09:00", "21:00"]
+      cloud: ["10:00","22:00"]
+      rr: ["10:00"]
+    - station: ["glasgow", "stonyhurst"]
+      year_range: {start: 1897, end: 1907}
+      rr: ["10:00"]
+    - station: ["cronkbourne douglas"]
+      date_range: {start: 1921-04-01, end: 1921-05-31}
+      general: ["09:00", "17:00"]
+      Tn: ["17:00"]
+      Tx: ["17:00"]
+    - station: ["armagh"]
+      year_range: 1919
+      general: ["09:00", "21:00"]
+      Tn: ["21:00"]
+      Tx: ["21:00"]
+      rr: ["09:00"]
+      TGn: ["21:00"]
+    - station: ["armagh"]
+      year_range: 1919
+      general: ["09:00", "21:00"]
+      Tn: ["21:00"]
+      Tx: ["21:00"]
+      rr: ["09:00"]
+      TGn: ["21:00"]
+    - station: ["cronkbourne douglas"]
+      year_range: 1918
+      general: ["09:00", "21:00"]
+      Tn: ["21:00"]
+      Tx: ["21:00"]
+      rr: ["09:00"]
+      TGn: ["21:00"]
+    - station: ["aberdeen"]
+      year_range: 1921
+      general: ["09:00", "21:00"]
+      Tn: ["00:00"]
+      Tx: ["00:00"]
+      rr: ["00:00"]
+      TGn: ["00:00"]
+    - station: ["cambridge"]
+      date_range: {start: 1916-05-21, end: 1921-12-31}
+      general: ["08:00", "20:00"]
+      Tn: ["20:00"]
+      Tx: ["20:00"]
+      rr: ["08:00"]
+      TGn: ["20:00"]
+
+time_zones:
+  - stations: "all"
+    time_zone: "Local mean time"
+    exceptions: ["Aberdeen", "Deerness", "Kew", "Falmouth", "Braemar", "Dundee", "Wolfelee", "Dunrobin Castle", "Tillypronie", "Fort William"]
+    exception_time_zone: "GMT"
+    year_range: {start: 1897, end: 1913}
+  - stations: ["Limerick", "Armagh", "Markree Castle", "Dublin", "Birr Castle"]
+    year_range: {start: 1911, end: 1916}
+    time_zone: "Dublin Mean Time"
+  - stations: ["Armagh", "Dublin"]
+    year_range: {start: 1917, end: 1921}
+    time_zone: "Local mean time"
+  - stations: ["Glasgow", "Cockle Park", "Cronkbourne Douglas", "Birmingham", "Stonyhurst", "Shrewsbury", "Southampton"]
+    time_zone: "Local mean time"
+    year_range: {start: 1917, end: 1921}
+  - stations: ["Cambridge"]
+    year_range: {start: 1911, end: 1916}
+    time_zone: "Local mean time"
+  - stations: ["Cambridge"]
+    year_range: {start: 1917, end: 1921}
+    time_zone: "GMT"
+
+# heights
+# station_height:
+#   - value: height_above_msl
+#     year_range: {start: 1873, end: 1885}
+#     written_in_book: "Defined as the height above MSL of the ground on which the rain gauge stands"
+    
+#   # NOTE: unclear how it is defined in 1886
+  
+#   - value: height_above_msl_for_irish_stations
+#     year_range: 1887
+#     written_in_book: "Heights given in volumes previous to that for 1886, as those of the Irish stations above mean sea level, are in reality the heights of those stations above the datum level of the Irish Ordnance Survey, which is 7 feet lower than the Ordnance datum for Great Britain. In the present volume, the heights of all the stations are referred to the mean sea level"
+
+#   - value: height_above_msl_for_irish_stations
+#     year_range: 1912
+#     written_in_book_1912: "Station height is defined as that of the ground on which the rain gauge stands. The Irish Ordnance Datum is the height of low-water at Dublin. This is 7ft below the British Ordnance Datum, the mean sea level at Liverpool. A correction of -7ft has been applied to the heights of Irish stations above the Irish Ordnance Datum to render them comparable with the heights of British stations"
+    
+#   - value: height_above_msl
+#     station: ["Armagh"]
+#     year_range: {start: 1885, end: 1918}
+#     written_in_book_1918: "In the case of Armagh, it has recently been noticed that a correction to station height was applied inadvertently to heights which were already referred to Mean Sea Level. The heights above Mean Sea Level for this station since 1885 should therefore be increased by 7 feet. Correct values are: station height = 204ft (62.2m), height of barometer = 209ft (63.7m), height of anemometer = 254 ft (77m)"
+#     # NOTE: which is applied in the SEF conversion script
+
+# barometer_height:
+#   - year_range: {start: 1873, end: 1910}
+#     value: height_above_ground_barometer
+#     written_in_book: "Height of the barometer above the ground"
+#   - year_range: {start: 1911, end: 1921}
+#     value: height_above_ground_barometer
+#     written_in_book: "Height of the barometer above mean sea level"
+
+# thermometer_height: 
+#   - value: height_above_ground_thermometers
+#     year_range: {start: 1873, end: 1921}
+#     written_in_book: "Height of the thermometers is the height above the ground on which the screen stands"
+
+# rain_gauge_height:
+#   - value: rain_gauge_height
+#     year_range: {start: 1873, end: 1921}
+#     written_in_book: "Height of the rain gauge is the height of the rim of the receiver above the ground in which the instrument is placed"
+
+# measurements
+# barometer:
+#   - written_in_book: "Barometer readings are reduced to 32˚F and to MSL by the tables given in 'Instructions in the Use of Meteorological Instruments'. Robert H. Scott, 1875, London"
+#     year_range: {start: 1873, end: 1885}
+#     locations: ["Dartmoor"]
+#     exception_info: "The index error of the Dartmoor barometer was determined during 1878 and the requisite correction has been applied from 1st January. For all the observations previous to 1878, 0.060 inHg must be subtracted to make them comparable with those at other stations"
+#   - written_in_book: "Barometer readings and means which previously were reduced to MSL are now given without that reduction, that is, at station level. As before, they are corrected for instrumental error and reduced to 32˚F. This change was made due to doubt surrounding the formula for the reduction of barometer readings to the MSL whenever the height of the station is considerable"
+#     year_range: {start: 1886, end: 1888}
+#   - written_in_book: "Correction applied to barometer readings as printed in order to allow for the difference of gravity at the station from that at latitude 45˚ is inserted for the first time in 1886 at the head of the tables as gravity correction"
+#     year_range: {start: 1889, end: 1911}
+#   - written_in_book: "Pressure values are given for MSL and readings have been corrected for the variation of gravity with latitude. Values are therefore in true units of pressure"
+#     year_range: {start: 1912, end: 1921}
+
+# temperature:
+#   - written_in_book: "Observations were corrected for errors in the thermometers"
+#     year_range: {start: 1873, end: 1921}
+
+# hygrometry:
+#   - written_in_book: "Glaisher's (fifth edition) tables were employed for hygrometrical reductions"
+#     year_range: {start: 1873, end: 1921}
+#     exceptions:
+#     - station: ["Birr Castle"]
+#       year_range: 1873
+#       written_in_book: "Kämtz's tables were used for hygrometrical reductions"
+      
+# wind_direction:
+#   - written_in_book: "Direction is true"
+#     year_range: {start: 1873, end: 1921}
+
+wind_force:
+  default:
+    unit: "beaufort"
+    year_range: {start: 1873, end: 1921}
+    exceptions:
+      - station: ["Durham"]
+        year_range: 1877
+        # method: "anemometer"
+        # conversion: "'Instructions', table on p. 58" 
+        unit: "beaufort"
+      # - station: ["Southampton"]
+      #   year_range: 1878
+        # method: "force is given in pounds per square foot"
+        # conversion: "Sir H James' book of Instructions, Table VII"
+      - station: ["Deerness", "Glasgow", "Stonyhurst", "Armagh"]
+        # year_range: {start: 1897, end: 1905}
+        instrument: "Robinson cup anemometer starting in 1897" # of the Standard size and pattern
+        # conversion: "Table found in 'Instructions in the Use of Meteorological Instruments' Robert H. Scott, 1875"
+        unit: "beaufort"
+      - station: ["Braemar", "Dundee", "Wolfelee", "Dunrobin Castle"] # Stations marked S
+        year_range: {start: 1897, end: 1905}
+        # method: "The scale employed in estimating wind force is known as the Land Scale. Under this scale 0 indicates calm and 6 indicates the strongest wind"
+        # written_in_book: "The original entries were multiplied by 2 to make them fairly comparable with observations under Beaufort"
+        unit: "beaufort"
+      - station: ["Aberdeen", "Falmouth", "Valencia"]
+      # ["Aberdeen", "Armagh", "Deerness", "Falmouth", "Glasgow", "Stonyhurst", "Valencia"]
+        # year_range: {start: 1906, end: 1907}
+        instrument: "Robinson cup anemometer starting in 1906" 
+        # written_in_book: "From 1906, the factor 2.2 was used in place of 3.0 in tabulating records of Robinson Cup anemometers of standard pattern and dimensions 9 inch cups and 2 ft arms. Simultaneously a revised scale of velocity equivalents for the Beaufort numbers was adopted. The change was most noticeable in decreasing the number of calms recorded, making the number of calms difficult to compare with previous years. In the 1920 volume, it is noted that with the factor 2.2, winds below 8 m/s were probably underestimated"
+        unit: "beaufort"
+      - station: ["Armagh", "Dublin Phoenix Park"]
+        year_range: {start: 1908, end: 1911}
+        unit: "miles per hour"
+      - station: ["Armagh"]
+        year_range: {start: 1912, end: 1921}
+        unit: "m/s"
+      - station: ["Dublin Phoenix Park"]
+        year_range: 1912
+        unit: "m/s"
+      - station: ["Dublin Phoenix Park"]
+        year_range: {start: 1913, end: 1921}
+        unit: "beaufort"
+      - station: ["Limerick"]
+        year_range: {start: 1911, end: 1912}
+        unit: "beaufort"
+      - station: ["Deerness"]
+        year_range: {start: 1908, end: 1910}
+        # instrument: "Robinson cup anemometer"
+        anemometer_height_above_msl_ft: 188
+        anemometer_height_above_ground_ft: 16
+        anemometer_height_above_roof_ft: 5
+        anemometer_cups_diameter_in: 9
+        anemometer_arms_ft: 2
+        anemometer_factor: 2.2
+        unit: "miles per hour"
+        # written_in_book: "No direction is specified if the velocity is under 4 mph"
+      - station: ["Deerness"]
+        year_range: 1911
+        unit: "miles per hour"
+      - station: ["Deerness"]
+        year_range: {start: 1912, end: 1921}
+        unit: "m/s"
+      - station: ["Aberdeen"]
+        year_range: {start: 1908, end: 1910}
+        unit: "beaufort"
+      - station: ["Aberdeen"]
+        year_range: 1911
+        unit: "miles per hour"
+      - station: ["Aberdeen"]
+        year_range: {start: 1912, end: 1915}
+        unit: "m/s"
+      - station: ["Fort William"]
+        year_range: {start: 1911, end: 1918}
+        unit: "beaufort"
+      - station: ["Fort William"]
+        year_range: 1919
+        unit: "m/s"
+      - station: ["Fort William"]
+        year_range: {start: 1920, end: 1921}
+        unit: "beaufort"
+      - station: ["Plymouth"]
+        year_range: {start: 1908, end: 1910}
+        instrument: "Dines pressure tube anemometer"
+        anemometer_height_above_msl_ft: 185
+        anemometer_height_above_ground_ft: 86
+        anemometer_height_above_roof_ft: 3
+        unit: "miles per hour"
+        # written_in_book: "No direction is specified if the velocity is under 4 mph"
+      - station: ["Stonyhurst"]
+        year_range: {start: 1908, end: 1910}
+        # instrument: "Robinson cup anemometer"
+        anemometer_height_above_msl_ft: 405
+        anemometer_height_above_ground_ft: 30
+        anemometer_height_above_roof_ft: 8
+        anemometer_cups_diameter_in: 9
+        anemometer_arms_ft: 2
+        anemometer_factor: 2.2
+        unit: "miles per hour"
+        # written_in_book: "No direction is specified if the velocity is under 4 mph"
+      # - station: ["Southport"] #only a monthly station during these years
+      #   year_range: {start: 1908, end: 1910}
+      #   instrument: "Dines pressure tube anemometer"
+      #   anemometer_height_above_msl_ft: 68
+      #   anemometer_height_above_ground_ft: 50
+      #   anemometer_height_above_roof_ft: 36
+      #   unit: "miles per hour"
+        # written_in_book: "No direction is specified if the velocity is under 4 mph"
+      - station: ["Glasgow"]
+        year_range: {start: 1908, end: 1910}
+        # instrument: "Robinson cup anemometer"
+        anemometer_height_above_msl_ft: 227
+        anemometer_height_above_ground_ft: 47
+        anemometer_height_above_roof_ft: 22
+        anemometer_cups_diameter_in: 9
+        anemometer_arms_ft: 2
+        anemometer_factor: 2.2
+        unit: "miles per hour"
+        # written_in_book: "No direction is specified if the velocity is under 4 mph"
+      - station: ["Deerness"]
+        year_range: {start: 1916, end: 1921}
+        # instrument: "Robinson cup anemometer"
+        anemometer_height_above_msl_m: 57
+        anemometer_height_above_ground_m: 5
+        unit: "m/s"
+        # written_in_book: "No direction is specified if the velocity is under 2 m/s"
+      - station: ["Deerness"]
+        year_range: {start: 1917, end: 1921}
+        # instrument: "Robinson cup anemometer"
+        # anemometer_height_above_msl_m: 57
+        # anemometer_height_above_ground_m: 5
+        anemometer_height_above_building_m: 2
+        unit: "m/s"
+        # written_in_book: "No direction is specified if the velocity is under 2 m/s"
+      - station: ["Aberdeen"]
+        year_range: {start: 1916, end: 1921}
+        # instrument: "Robinson cup anemometer"
+        anemometer_height_above_msl_m: 37
+        anemometer_height_above_ground_m: 22
+        unit: "m/s"
+        # written_in_book: "No direction is specified if the velocity is under 2 m/s"
+      - station: ["Aberdeen"]
+        year_range: {start: 1917, end: 1921}
+        # instrument: "Robinson cup anemometer"
+        # anemometer_height_above_msl_m: 37
+        # anemometer_height_above_ground_m: 22
+        anemometer_height_above_building_m: 4
+        unit: "m/s"
+        # written_in_book: "No direction is specified if the velocity is under 2 m/s"
+      - station: ["Armagh"]
+        year_range: {start: 1915, end: 1921}
+        # instrument: "Robinson cup anemometer"
+        anemometer_height_above_ground_m: 15
+        unit: "m/s"
+      - station: ["Armagh"]
+        year_range: {start: 1915, end: 1917}
+        # instrument: "Robinson cup anemometer"
+        anemometer_height_above_msl_m: 75
+        # anemometer_height_above_ground_m: 15
+        unit: "m/s"
+        # written_in_book: "No direction is specified if the velocity is under 2 m/s. Armagh observatory is sheltered by trees so that the recorded wind velocity at this station does not represent the general flow of the air at the same level in the neighbourhood"
+      - station: ["Armagh"]
+        year_range: {start: 1918, end: 1920}
+        # instrument: "Robinson cup anemometer"
+        anemometer_height_above_msl_m: 77
+        # anemometer_height_above_ground_m: 15
+        unit: "m/s"
+        # written_in_book: "No direction is specified if the velocity is under 2 m/s. Armagh observatory is sheltered by trees so that the recorded wind velocity at this station does not represent the general flow of the air at the same level in the neighbourhood"
+      - station: ["Armagh"]
+        year_range: 1921
+        # instrument: "Robinson cup anemometer"
+        anemometer_height_above_msl_m: 75
+        # anemometer_height_above_ground_m: 15
+        unit: "m/s"
+        # written_in_book: "No direction is specified if the velocity is under 2 m/s. Armagh observatory is sheltered by trees so that the recorded wind velocity at this station does not represent the general flow of the air at the same level in the neighbourhood"
+      - station: ["tillypronie", "dunrobin castle", "laudale", "dundee", "cockle park", "cronkbourne douglas", "hillington", "shrewbury", "cambridge", "cheltenham", "woolacombe", "southampton", "markree castle", "birr castle"]
+        year_range: 1908
+        unit: "beaufort"
+      - station: ["dunrobin castle"]
+        year_range: {start: 1909, end: 1910}
+        unit: "beaufort"
+      - station: ["laudale"]
+        year_range: 1909
+        unit: "beaufort"
+      - station: ["dundee"]
+        year_range: {start: 1909, end: 1912}
+        unit: "beaufort"
+      - station: ["glasgow"]
+        year_range: 1911
+        unit: "miles per hour"
+      - station: ["glasgow"]
+        year_range: 1912
+        unit: "m/s"
+      - station: ["eskdalemuir"]
+        year_range: 1910
+        unit: "miles per hour"
+      - station: ["cockle park"]
+        year_range: {start: 1909, end: 1912}
+        unit: "beaufort"
+      - station: ["cronkbourne douglas"]
+        year_range: {start: 1909, end: 1921}
+        unit: "beaufort"
+      - station: ["birmingham"]
+        year_range: {start: 1919, end: 1921}
+        unit: "beaufort"
+      - station: ["stonyhurst"]
+        year_range: 1911
+        unit: "miles per hour"
+      - station: ["stonyhurst"]
+        year_range: 1912
+        unit: "m/s"
+      - station: ["hillington"]
+        year_range: {start: 1909, end: 1910}
+        unit: "beaufort"
+      - station: ["shrewsbury"]
+        year_range: {start: 1908, end: 1918}
+        unit: "beaufort"
+      - station: ["cambridge"]
+        year_range: {start: 1909, end: 1921}
+        unit: "beaufort"
+      - station: ["cheltenham"]
+        year_range: {start: 1909, end: 1910}
+        unit: "beaufort"
+      - station: ["woolacombe"]
+        year_range: {start: 1909, end: 1910}
+        unit: "beaufort"
+      - station: ["southampton"]
+        year_range: {start: 1909, end: 1912}
+        unit: "beaufort"
+      - station: ["falmouth"]
+        year_range: 1911
+        unit: "mph"
+      - station: ["falmouth"]
+        year_range: 1912
+        unit: "m/s"
+      - station: ["markree castle"]
+        year_range: {start: 1909, end: 1912}
+        unit: "beaufort"
+      - station: ["birr castle"]
+        year_range: {start: 1909, end: 1912}
+        unit: "beaufort"
+      
+      
+# cloud:
+# - written_in_book: "Cloud amount is estimated by a scale in which 0 represents clear sky and 10 completely overcast"
+#   year_range: {start: 1873, end: 1921}
+
+# rain:
+# - written_in_book: "Rainfall was measured at the first observing hour and entered to the previous day"
+#   year_range: {start: 1873, end: 1921}
+
+sunshine:
+- instrument: "Campbell-Stokes Burning Recorder"
+  # year_range: {start: 1905, end: 1921}
+
+metadata_overrides:
+  - station: ["Armagh"]
+    year_range: {start: 1885, end: 1918}
+    alt_m: 62.2
+    hob_m: 63.7
+  - station: ["Armagh"] #gemini mixing up the hob (63.7m) and the alt (62.2m)
+    year_range: {start: 1919, end: 1921}
+    alt_m: 62.2
+    hob_m: 63.7
+  - station: ["Birmingham"]
+    alt_m: 160.0
+    hob_m: 165.2
+  - station: ["Babbacombe"]
+    year_range: 1880
+    lat: -3.5167 # 3 deg 31 min E was in logbook when it should have been 3 deg 31 min W 
+  - station: ["Birr Castle"] #gemini inconsistently transcribes the minus sign
+    hob_ft: -2.0
+  - station: ["Birr Castle"] #several red ink corrections in 1886 that Gemini did not pick up on
+    year_range: 1886
+    alt_m: 175.0
+  - station: ["Cambridge"]
+    date_range: {start: 1904-01-01, end: 1905-07-31}
+    alt_ft: 41.0
+    hob_ft: 2.0
+    therm_ft: 4
+    rain_ft: 1.667 #1 ft 8in
+    lon: 0.1333 # 0 deg 8 min E
+    lat: 52.2000 # 52 deg 12 min N
+  - station: ["Cambridge"] # gemini mixed up alt (should be 12.8m) and hob (should be 13.1m)
+    date_range: {start: 1918-08-01, end: 1918-09-30}
+    alt_m: 12.8
+    hob_m: 13.1
+  - station: ["Dublin"]
+    year_range: {start: 1886, end: 1921}
+    name: "Dublin Phoenix Park"
+  - station: ["Dublin"]
+    date_range: {start: 1906-01-01, end: 1906-01-31} # gemini mistranscribed hob as 5 should be 4 ft
+    hob_ft: 4.0
+  - station: ["Durham"]
+    date_range: {start: 1877-01-01, end: 180-12-31}
+    lat: 54.7667
+  - station: ["Carmarthen"]
+    alt_ft: 138.0
+  - station: ["Churchstoke"] #gemini mistranscribed 538ft as 533ft
+    date_range: {start: 1885-12-01, end: 1885-12-31}
+    alt_ft: 538.0
+  - station: ["Cronkbourne Douglas"] #logbook writes 4˚10’N instead of 54˚10’N September 1918
+    date_range: {start: 1918-09-01, end: 1918-09-30}
+    lat: 54.1667 # 54 deg 10 min N
+  - station: ["Cronkbourne Douglas"] #logbook writes 4˚10’N instead of 54˚10’N September 1918
+    date_range: {start: 1908-05-29, end: 1908-05-31}
+    lat: 54.1667 # 54 deg 10 min N
+    lon: -4.6667 # 4 deg 28 min W
+    alt_ft: 277.0
+    hob_ft: 7.0
+    therm_ft: 4.0
+    rain_ft: 0.83 # 10 inches
+  - station: ["Deerness"] #makes sure the SEF conversion relays that the station moved on 24 March 1891 rather than on 01 March 1891
+    date_range: {start: 1891-03-24, end: 1897-10-15} # Hob oct 1897: 3 ft till 15th then 12ft. Gemini transcribed this information, below makes sure it is relayed into the SEF
+    alt_ft: 169.0
+    hob_ft: 3.0
+    therm_ft: 4.0
+    rain_ft: 1.0
+    lon: -2.7500 # 2 deg 45 min W
+    lat: 58.9333 # 58 deg 56 min N
+  - station: ["Deerness"] #makes sure the SEF conversion relays that the station moved on 24 March 1891 rather than on 01 March 1891
+    date_range: {start: 1897-10-16, end: 1906-11-30} # Hob oct 1897: 3 ft till 15th then 12ft. Gemini transcribed this information, below makes sure it is relayed into the SEF
+    # apr 1900: gemini mistrancribed 12 ft as 2 ft, from dec 1906: hob is written in logbooks as 3ft
+    hob_ft: 12.0
+  - station: ["Deerness"] # December 1915, gemini mixed up the Hob and altitude. They should be alt=48.8 and hob=49.7
+    date_range: {start: 1915-12-01, end: 1915-12-31} 
+    alt_m: 48.8
+    hob_m: 49.7
+  - station: ["Dundee"] # gemini mistrancribed alt 160 ft as 162ft
+    date_range: {start: 1902-10-01, end: 1902-10-31} 
+    alt_ft: 160
+    # the fort william metadata is conflicting with height of barometer and height of station indicating that they were not at the same site while only 1 lat/lon is given for the station throughout the record
+    # this config block ensures the metadata is correct
+  - station: ["Fort William"] # fort william in march 1911: height of the barometer above MSL is 121 ft away from the height of the station above MSL but only 1 lat/lon is given.
+    date_range: {start: 1911-03-01, end: 1911-03-31} 
+    alt_ft: 170.0
+    hob_ft: -120.35 #(-120ft 3 in)
+  - station: ["Fort William"] # fort william in apr 1911: height above MSL of station is 171ft, height above MSL of barometer is 49.8ft with only 1 lat/lon given for the station
+    date_range: {start: 1911-04-01, end: 1911-11-30} 
+    alt_ft: 171.0
+    hob_ft: 49.8
+  - station: ["Fort William"] # fort william in dec 1911: height above MSL of station is 171ft, height above MSL of barometer is 38ft with only 1 lat/lon given for the station
+    date_range: {start: 1911-12-01, end: 1911-12-31} 
+    alt_ft: 171.0
+    hob_ft: 38
+  - station: ["Fort William"] # change in units 
+    date_range: {start: 1912-01-01, end: 1921-12-31} 
+    alt_m: 52.1
+    hob_m: 11.6 
+  - station: ["Geldeston"] # august 1885, gemini transcribed faded ink on page as 52 23 N when it should be 52 28 N
+    date_range: {start: 1885-08-01, end: 1885-08-31} 
+    lat: 52.4667 # 52 deg 28 min N
+  - station: ["Hillington"] # september 1892, gemini transcribed disrupted ink on page as 0 83 E when it should be 0 33 E
+    date_range: {start: 1892-09-01, end: 1892-09-30} 
+    lon: 0.5500 # 0 deg 33 min E
+  - station: ["Kelstern"] # september 1879 latitude gemini mistranscribed faded ink 53 24N as 53 21N
+    date_range: {start: 1879-09-01, end: 1879-09-30} 
+    lat: 53.4 # 53 deg 24 min N
+  - station: ["Laudale"] # feb 1908 gemini mistranscribed alt as 12ft when it is 14ft
+    date_range: {start: 1908-02-01, end: 1908-02-29} 
+    alt_ft: 14.0
+  - station: ["Londonderry"] # alt feb 1886 gemini transcribed 93ft, red ink correction shows alt should be 86ft
+    date_range: {start: 1886-02-01, end: 1886-02-28} 
+    alt_ft: 86.0
+  - station: ["Markree Castle"] # alt jan 1886, red ink says 122ft not 124ft as gemini transcribed, hob red ink says should be 5ft not 3ft as typeset and as gemini transcribed
+    #  Feb 1886 alt red ink says 122ft not 131 ft as typeset and as gemini transcribed, hob red ink says 5ft not 3ft as type and as gemini transcribed
+    # alt red ink corrections continue for mar-may until June when 122ft is actually typed gemini doesn’t get red ink
+    # hob red ink corrections continues until oct when 5ft is actually typed gemini doesn’t get red ink
+    date_range: {start: 1886-01-01, end: 1886-09-30} 
+    alt_ft: 122.0
+    hob_ft: 5.0
+  - station: ["Plymouth"] # hob aug 1894: moves from 74ft to 57ft. In sep 1894, hob red ink correction to 57 from 74 which gemini doesnt pick up
+    date_range: {start: 1894-09-01, end: 1894-09-30} 
+    hob_ft: 74.0
+  - station: ["Scarborough"] # alt and hob change on 23rd February 1887. Gemini transcribes correctly, just ensuring SEF conversion is correct.
+    date_range: {start: 1887-02-23, end: 1887-02-28} 
+    alt_ft: 159.0
+    hob_ft: 1.0
+  - station: ["Scarborough"] # alt and hob move again on 14 july 1897. Gemini transcribes correctly, just ensuring SEF conversion is correct.
+    date_range: {start: 1897-07-14, end: 1897-08-31} 
+    alt_ft: 219.0
+    hob_ft: -6.0
+  - station: ["Scarborough"] # alt and hob change on 20th dec 1903. Gemini transcribes correctly, just ensuring SEF conversion is correct.
+    date_range: {start: 1897-12-20, end: 1897-12-31} 
+    alt_ft: 100.0
+    hob_ft: 27.0
+  - station: ["Southampton"] # sep 1893, gemini mistrancribed 78ft as 84ft
+    date_range: {start: 1893-09-01, end: 1893-09-30} 
+    alt_ft: 78.0
+  - station: ["St Davids Pembroke"] # may 1894, gemini mistrancribed disrupted ink 53’ as 52', ink was slightly disrupted on page
+    date_range: {start: 1894-05-01, end: 1894-05-31} 
+    lat: 51.8833 # 51 deg 53 min N
+  - station: ["Swanbister And Stenness"]
+    date_range: {start: 1880-01-01, end: 1890-07-31}
+    name: "Swanbister"
+  - station: ["Swanbister And Stenness"]
+    date_range: {start: 1890-08-01, end: 1891-02-28}
+    name: "Stenness"
+  - station: ["Uppingham"] # apr 1883 alt, gemini transcribed ink fading here as 481ft rather than 484ft
+    date_range: {start: 1883-04-01, end: 1893-04-30} 
+    alt_ft: 484.0
+    
+    
+
+
+
+
+
+
+  
