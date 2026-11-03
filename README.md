@@ -3,7 +3,7 @@ Data and code from Brotchie et al. (in prep.) Digitising historical climate data
 
 The Step 1 script downloads the scanned archival documents as PDFs from their source https://digital.nmla.metoffice.gov.uk/SO_feb1a621-72a3-4501-a6d2-8af1a8abe545/ to the working directory.<br>
 Step 3-7b cover the transcription of the data using Google Gemini 3.1 Pro Preview.<br>
-Post-processing occurs in Steps 8a-11 and 14.<br>
+Post-processing is conducted in Steps 8a-11 and 14.<br>
 Finally, technical validation is handled by the scripts for Steps 12,13 and 15.<br>
 The full pipeline is detailed in Brotchie et al. (in prep.).<br>
 
