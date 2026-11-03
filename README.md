@@ -1,6 +1,15 @@
 # Stations-of-the-Second-Order-daily-tables
 Data and code from Brotchie et al. (in prep.) Digitising historical climate data using the Google Gemini Large Language Model
 
+The Step 1 script downloads the scanned archival documents as PDFs from their source https://digital.nmla.metoffice.gov.uk/SO_feb1a621-72a3-4501-a6d2-8af1a8abe545/ to the working directory.<br>
+Step 3-7b cover the transcription of the data using Google Gemini 3.1 Pro Preview.<br>
+Post-processing occurs in Steps 8a-11 and 14.<br>
+Finally, technical validation is handled by the scripts for Steps 12,13 and 15.<br>
+The full pipeline is detailed in Brotchie et al. (in prep.).<br>
+
+<img width="100" height="80" alt="Pipeline" src="https://github.com/user-attachments/assets/886ec0d0-f70b-4481-8882-896c11a3c09e" />
+
+
 The data are available in Station Exchange Format as TSV files and in CSV files that imitate the original tabular structure.<br>The Station Exchange Format documentation is available at https://datarescue.climate.copernicus.eu/station-exchange-format-sef
 <br>The filename convention of the Station Exchange Format is STATIONNAME\_variablecode\_startdate\_enddate.tsv where the date format is YYYYMMDD. The variable codes are provided below.
 
