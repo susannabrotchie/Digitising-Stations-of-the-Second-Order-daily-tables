@@ -1,0 +1,44 @@
+﻿Title,Killarney July 1882
+# SOURCE_FILENAME,p115_1882.jpg
+# METADATA,
+# gravity_correction,null
+# height_above_ground_barometer,null
+# height_above_ground_thermometers,null
+# height_above_msl,93 feet
+# latitude,52° 4' N.
+# longitude,9° 30' W.
+# note,"During observer's absence from home, observations were taken at 9 a.m. only."
+# rain_gauge_height,null
+Day,Barometer at 32˚ and M.S.L. 9 a.m.,Barometer at 32˚ and M.S.L. 9 p.m.,Air Temperature 9 a.m.,Air Temperature 9 p.m.,Air Temperature Min.,Air Temperature Max.,Tension of Vapour 9 a.m.,Tension of Vapour 9 p.m.,Relative Humidity 9 a.m.,Relative Humidity 9 p.m.,Wind Direction 9 a.m.,Wind Force 9 a.m.,Wind Direction 9 p.m.,Wind Force 9 p.m.,Amount of Cloud 9 a.m.,Amount of Cloud 9 p.m.,Rain 9 a.m.
+1,,,63,,,68.2,,,,,SW,2,,,7,,0
+2,,,64.2,,,70,,,,,SW,1,,,6,,0
+3,,,65,,,70.2,,,,,W,3,,,6,,0.2
+4,,,66.5,,,68,,,,,W,1,,,7,,0.3
+5,,,67,,,69,,,,,CALM,0,,,6,,0.05
+6,,,59.3,,,63.7,,,,,W,1,,,8,,0.02
+7,,,55.7,,,66,,,,,SW,1,,,5,,0
+8,,,56.5,,,63,,,,,S,1,,,6,,0.01
+9,,,57.7,,,66.2,,,,,W,2,,,7,,0
+10,,,59.2,,,65,,,,,CALM,0,,,7,,0.15
+11,,,60,,,68,,,,,W,3,,,6,,0.05
+12,,,60.2,,,67.5,,,,,SW,2,,,6,,0
+13,,,58.5,,,62.7,,,,,W,2,,,8,,0.25
+14,,,62.7,,,64.2,,,,,CALM,0,,,7,,0.33
+15,,,61,,,68.5,,,,,NW,3,,,6,,0.2
+16,,,61.5,,,67,,,,,NW,2,,,8,,0.25
+17,,,60.7,,,68.2,,,,,W,2,,,7,,0.09
+18,,,59.5,,,64.5,,,,,W,3,,,6,,0.45
+19,,,63.2,,,68.2,,,,,SW,2,,,5,,0.35
+20,,,59.5,,,66,,,,,W,3,,,9,,0.4
+21,,,65.5,,,69.2,,,,,SW,1,,,6,,0.05
+22,,,68.2,,,70,,,,,NW,1,,,6,,0.15
+23,,,65.5,,,68.7,,,,,SW,1,,,7,,0
+24,,,64.7,,,68.2,,,,,NW,2,,,6,,0.08
+25,,,66.2,,,70,,,,,SW,2,,,4,,0
+26,,,65,,,69.7,,,,,SW,1,,,5,,0
+27,,,68.5,,,70.2,,,,,SW,3,,,4,,0.01
+28,,,64.7,,,67,,,,,W,1,,,6,,0.1
+29,,,67,,,70.2,,,,,NW,2,,,4,,0
+30,,,66.5,,,69,,,,,NW,3,,,4,,0
+31,,,66.5,,,70.5,,,,,W,2,,,7,,0
+Mean,,,62.9,,,67.6,,,,,,1.7,,,6.2,,3.49

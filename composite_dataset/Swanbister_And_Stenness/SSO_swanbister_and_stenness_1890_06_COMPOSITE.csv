@@ -1,0 +1,43 @@
+﻿Title,Swanbister And Stenness June 1890
+# SOURCE_FILENAME,p63_1890.jpg
+# METADATA,
+# gravity_correction,+ .036.
+# height_above_ground_barometer,3 feet
+# height_above_ground_thermometers,4 feet
+# height_above_msl,167 feet
+# latitude,58° 56' N.
+# longitude,3° 8' W.
+# note,MISMATCH
+# rain_gauge_height,1 foot
+Day,Barometer at 32° Faht. 9 a.m.,Barometer at 32° Faht. 9 p.m.,Air Temperature 9 a.m.,Air Temperature 9 p.m.,Air Temperature Min.,Air Temperature Max.,Humidity Dep. of Wet. 9 a.m.,Humidity Dep. of Wet. 9 p.m.,Humidity Vapour Tension 9 a.m.,Humidity Vapour Tension 9 p.m.,Humidity Percentage 9 a.m.,Humidity Percentage 9 p.m.,Wind Direction 9 a.m.,Wind Force 9 a.m.,Wind Direction 9 p.m.,Wind Force 9 p.m.,Cloud Amount 9 a.m.,Cloud Amount 9 p.m.,Rain 9 a.m.
+1,,,,,,,,,,,,,SW,4,NNW,2,,,0
+2,,,,,,,,,,,,,W,2,E,3,,,0
+3,,,,,,,,,,,,,E,1,CALM,0,,,0
+4,,,,,,,,,,,,,WSW,6,SSE,1,,,0
+5,,,,,,,,,,,,,NW,2,E,1,,,0
+6,,,,,,,,,,,,,CALM,0,WNW,3,,,0
+7,,,,,,,,,,,,,W,4,WNW,2,,,0
+8,,,,,,,,,,,,,WNW,1,SE,4,,,0
+9,,,,,,,,,,,,,ESE,5,E,1,,,0
+10,,,,,,,,,,,,,E,1,ESE,3,,,0
+11,,,,,,,,,,,,,E,4,NE,2,,,0
+12,,,,,,,,,,,,,NNE,5,NNE,4,,,0
+13,,,,,,,,,,,,,N,3,N,2,,,0
+14,,,,,,,,,,,,,N,2,NE,1,,,0
+15,,,,,,,,,,,,,S,3,CALM,0,,,0
+16,,,,,,,,,,,,,WSW,2,W,3,,,0
+17,,,,,,,,,,,,,W,3,NW,3,,,0
+18,,,,,,,,,,,,,WNW,3,S,2,,,0
+19,,,,,,,,,,,,,W,4,CALM,0,,,0
+20,,,,,,,,,,,,,SW,3,WSW,3,,,0
+21,,,,,,,,,,,,,W,4,SSW,1,,,0
+22,,,,,,,,,,,,,NW,4,CALM,0,,,0
+23,,,,,,,,,,,,,S,3,W,4,,,0
+24,,,,,,,,,,,,,WSW,5,SE,1,,,0
+25,,,,,,,,,,,,,W,10,W,4,,,0
+26,,,,,,,,,,,,,SW,1,SE,2,,,0
+27,,,,,,,,,,,,,E,4,N,2,,,0
+28,,,,,,,,,,,,,N,3,N,1,,,0
+29,,,,,,,,,,,,,S,1,SE,4,,,0
+30,,,,,,,,,,,,,E,5,ENE,5,,,0
+Mean,,,,,,,,,,,,,,3.3,,2.1,,,0

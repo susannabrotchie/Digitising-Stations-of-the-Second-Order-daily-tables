@@ -1,0 +1,43 @@
+﻿Title,Glenalmond April 1880
+# SOURCE_FILENAME,p59_1880.jpg
+# METADATA,
+# gravity_correction,
+# height_above_ground_barometer,
+# height_above_ground_thermometers,
+# height_above_msl,529 feet
+# latitude,56° 27' N.
+# longitude,3° 40' W.
+# note,MISMATCH
+# rain_gauge_height,
+Day,Barometer at 32˚ and M.S.L. 9 a.m.,Barometer at 32˚ and M.S.L. 9 p.m.,Air Temperature 9 a.m.,Air Temperature 9 p.m.,Air Temperature Min.,Air Temperature Max.,Tension of Vapour 9 a.m.,Tension of Vapour 9 p.m.,Relative Humidity 9 a.m.,Relative Humidity 9 p.m.,Wind Direction 9 a.m.,Wind Force 9 a.m.,Wind Direction 9 p.m.,Wind Force 9 p.m.,Amount of Cloud 9 a.m.,Amount of Cloud 9 p.m.,Rain 9 a.m.
+1,,,,,37.5,51.5,,,,,,,,,,,0.105
+2,,,,,32.5,45.3,,,,,,,,,,,0.086
+3,,,,,37.2,51.5,,,,,,,,,,,0.18
+4,,,,,35.5,51.1,,,,,,,,,,,0.028
+5,,,,,38.2,42.6,,,,,,,,,,,0.018
+6,,,,,31.5,52.9,,,,,,,,,,,0.237
+7,,,,,35,50.8,,,,,,,,,,,0
+8,,,,,34,50,,,,,,,,,,,0.05
+9,,,,,31.3,51.2,,,,,,,,,,,0.03
+10,,,,,31,51,,,,,,,,,,,0.065
+11,,,,,38,52,,,,,,,,,,,0.07
+12,,,,,33,52,,,,,,,,,,,0
+13,,,,,37,57,,,,,,,,,,,0.45
+14,,,,,36,49,,,,,,,,,,,0
+15,,,,,36,46,,,,,,,,,,,0.3
+16,,,,,35,44,,,,,,,,,,,0.07
+17,,,,,40,54,,,,,,,,,,,0
+18,,,,,47,51,,,,,,,,,,,0.4
+19,,,,,46,55,,,,,,,,,,,0.085
+20,,,,,43,57,,,,,,,,,,,0.38
+21,,,,,37,51,,,,,,,,,,,0.87
+22,,,,,37,53,,,,,,,,,,,0
+23,,,,,37,58,,,,,,,,,,,0
+24,,,,,41,53,,,,,,,,,,,0
+25,,,,,38,50,,,,,,,,,,,0
+26,,,,,34,49,,,,,,,,,,,0
+27,,,,,31,53,,,,,,,,,,,0
+28,,,,,38,55,,,,,,,,,,,0.11
+29,,,,,36,49,,,,,,,,,,,0
+30,,,,,32,59,,,,,,,,,,,0
+Mean,,,,,36.5,51.5,,,,,,,,,,,3.534

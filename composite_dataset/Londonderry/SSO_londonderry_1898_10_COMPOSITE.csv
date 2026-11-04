@@ -1,0 +1,44 @@
+﻿Title,Londonderry October 1898
+# SOURCE_FILENAME,p118_1898.jpg
+# METADATA,
+# gravity_correction,+ .027 in.
+# height_above_ground_barometer,14 feet.
+# height_above_ground_thermometers,4 feet.
+# height_above_msl,67 feet.
+# latitude,55° 0' N.
+# longitude,7° 19' W.
+# note,None
+# rain_gauge_height,1 foot.
+Day,Barometer at 32° Faht. 9 a.m.,Barometer at 32° Faht. 9 p.m.,Air Temperature 9 a.m.,Air Temperature 9 p.m.,Air Temperature Min.,Air Temperature Max.,Humidity Dep. of Wet. 9 a.m.,Humidity Dep. of Wet. 9 p.m.,Humidity Vapour Tension 9 a.m.,Humidity Vapour Tension 9 p.m.,Humidity Percentage 9 a.m.,Humidity Percentage 9 p.m.,Wind Direction 9 a.m.,Wind Force 9 a.m.,Wind Direction 9 p.m.,Wind Force 9 p.m.,Cloud Amount 9 a.m.,Cloud Amount 9 p.m.,Rain 9 a.m.
+1,,,,,43.8,63,,,,,,,,,,,,,0
+2,,,,,58,64,,,,,,,,,,,,,0
+3,,,,,56,71,,,,,,,,,,,,,0
+4,,,,,48.8,70,,,,,,,,,,,,,0
+5,,,,,50.3,68.3,,,,,,,,,,,,,0
+6,,,,,55,60,,,,,,,,,,,,,0
+7,,,,,54,60,,,,,,,,,,,,,0
+8,,,,,53.2,60.2,,,,,,,,,,,,,0.57
+9,,,,,47.2,59.3,,,,,,,,,,,,,0.03
+10,,,,,43.7,58,,,,,,,,,,,,,0.02
+11,,,,,40.5,57.4,,,,,,,,,,,,,0.02
+12,,,,,38.2,54,,,,,,,,,,,,,0
+13,,,,,38.3,53,,,,,,,,,,,,,0
+14,,,,,48.6,53.2,,,,,,,,,,,,,0.02
+15,,,,,45.1,51.8,,,,,,,,,,,,,0.05
+16,,,,,43,50,,,,,,,,,,,,,0.08
+17,,,,,44,48.8,,,,,,,,,,,,,1.12
+18,,,,,43.8,49.1,,,,,,,,,,,,,0.07
+19,,,,,45.4,52.4,,,,,,,,,,,,,0
+20,,,,,39,54.4,,,,,,,,,,,,,0.02
+21,,,,,51.5,62,,,,,,,,,,,,,0.13
+22,,,,,51.4,61.6,,,,,,,,,,,,,0.21
+23,,,,,45.8,54.2,,,,,,,,,,,,,0.25
+24,,,,,44.5,51,,,,,,,,,,,,,0.27
+25,,,,,42.5,57.4,,,,,,,,,,,,,0.05
+26,,,,,47,56,,,,,,,,,,,,,0.07
+27,,,,,43.6,56,,,,,,,,,,,,,0
+28,,,,,38.8,50.2,,,,,,,,,,,,,0.01
+29,,,,,35.8,45.4,,,,,,,,,,,,,0
+30,,,,,35,45.8,,,,,,,,,,,,,0.21
+31,,,,,40.8,51.2,,,,,,,,,,,,,0.1
+Mean,,,,,45.6,56.4,,,,,,,,,,,,,3.3

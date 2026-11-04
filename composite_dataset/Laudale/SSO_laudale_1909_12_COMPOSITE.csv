@@ -1,0 +1,44 @@
+﻿Title,Laudale December 1909
+# SOURCE_FILENAME,p143_1909.jpg
+# METADATA,
+# gravity_correction,+ .031 in.
+# height_above_ground_barometer,11 feet.
+# height_above_ground_thermometers,4 feet.
+# height_above_msl,14 feet.
+# latitude,56° 41' N.
+# longitude,5° 41' W.
+# note,MISMATCH
+# rain_gauge_height,1 foot.
+Day,Barometer at 32° Faht. at Level and Latitude of Station 9 a.m.,Barometer at 32° Faht. at Station Level and Latitude of Station 9 p.m.,Air Temperature 9 a.m.,Air Temperature 9 p.m.,Air Temperature Max.,Air Temperature Min.,Humidity Dep. of Wet. 9 a.m.,Humidity Dep. of Wet. 9 p.m.,Humidity Vapour Pressure 9 a.m.,Humidity Vapour Pressure 9 p.m.,Humidity Percentage 9 a.m.,Humidity Percentage 9 p.m.,Wind Direction 9 a.m.,Wind Force (0-12) or Velocity (miles per hour) 9 a.m. (0-12),Wind Direction 9 p.m.,Wind Force (0-12) or Velocity (miles per hour) 9 p.m. (0-12),Cloud Amount 9 a.m.,Cloud Amount 9 p.m.,Rain 24 hours beginning 9 a.m.,Sunshine,Min. Temp. on Grass
+1,,,,,39.9,34.3,,,,,,,,,,,,,0.25,,
+2,,,,,37.2,35.2,,,,,,,,,,,,,0,,
+3,,,,,39.2,31.3,,,,,,,,,,,,,0,,
+4,,,,,37.3,31,,,,,,,,,,,,,0,,
+5,,,,,31.1,27,,,,,,,,,,,,,0,,
+6,,,,,31.5,25,,,,,,,,,,,,,0,,
+7,,,,,37.5,25.9,,,,,,,,,,,,,0,,
+8,,,,,44.3,36.1,,,,,,,,,,,,,0.36,,
+9,,,,,55.2,45,,,,,,,,,,,,,2.94,,
+10,,,,,55.2,49,,,,,,,,,,,,,0.43,,
+11,,,,,51.5,47.2,,,,,,,,,,,,,0.28,,
+12,,,,,51.7,38.3,,,,,,,,,,,,,0,,
+13,,,,,42.3,36,,,,,,,,,,,,,0,,
+14,,,,,38.5,31.7,,,,,,,,,,,,,0,,
+15,,,,,36,31,,,,,,,,,,,,,0,,
+16,,,,,35.7,27,,,,,,,,,,,,,0,,
+17,,,,,36,27,,,,,,,,,,,,,0,,
+18,,,,,33.2,25.5,,,,,,,,,,,,,0,,
+19,,,,,32.2,26,,,,,,,,,,,,,0.08,,
+20,,,,,34.9,25.2,,,,,,,,,,,,,0.08,,
+21,,,,,38.9,32.2,,,,,,,,,,,,,0,,
+22,,,,,44.7,40,,,,,,,,,,,,,0.2,,
+23,,,,,47.5,40.2,,,,,,,,,,,,,0,,
+24,,,,,42.5,33.7,,,,,,,,,,,,,0.08,,
+25,,,,,51.5,33.4,,,,,,,,,,,,,1.65,,
+26,,,,,51,33.2,,,,,,,,,,,,,0.37,,
+27,,,,,50.9,33.7,,,,,,,,,,,,,0.68,,
+28,,,,,47.2,33,,,,,,,,,,,,,0.03,,
+29,,,,,48.2,40,,,,,,,,,,,,,0.05,,
+30,,,,,51.5,47,,,,,,,,,,,,,1.04,,
+31,,,,,53.7,41.5,,,,,,,,,,,,,0.78,,
+Mean,,,,,42.8,34.3,,,,,,,,,,,,,9.3,,
