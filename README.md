@@ -1,5 +1,7 @@
 # Stations-of-the-Second-Order-daily-tables
-Data and code from Brotchie et al. (in prep.) *Digitising historical climate data using the Google Gemini Large Language Model*, which rescued over 6 million observations of key climate variables including of pressure, temperature, rainfall and wind. The dataset covers 1873-1921 across the United Kingdom, Republic of Ireland, Isle of Man and Jersey, Channel Islands.
+Data and code from Brotchie et al. (in prep.) *Digitising historical climate data using the Google Gemini Large Language Model*, which rescued over 6 million observations of key climate variables including of pressure, temperature, rainfall and wind. The dataset covers 1873-1921 across the United Kingdom, Republic of Ireland, Isle of Man and Jersey, Channel Islands.<br>
+
+This repository is archived on Zenodo at https://doi.org/10.5281/zenodo.23955578<br>
 
 The script for Step 1 downloads the scanned archival documents as PDFs from their source https://digital.nmla.metoffice.gov.uk/SO_feb1a621-72a3-4501-a6d2-8af1a8abe545/ to the working directory.<br>
 Steps 3-7b cover the transcription of the data using Google Gemini 3.1 Pro Preview.<br>
@@ -29,4 +31,6 @@ The Station Exchange Format documentation is available at https://datarescue.cli
 | ss | Sunshine duration |
 | TGn | Minimum temperature on grass |
 
-For the CSV files from the composite dataset, the filename convention is SSO_stationname_YYYY_MM_COMPOSITE.csv where SSO is 'Stations of the Second Order'.
+For the CSV files from the composite dataset, the filename convention is SSO_stationname_YYYY_MM_COMPOSITE.csv where SSO is 'Stations of the Second Order'.<br>
+
+We provide a manually transcribed ground truth dataset as a supplementary dataset. Each XLSX file contains all the daily tables for 1 month organised by station.
