@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	LIMERICK_MUNGRET_COLLEGE
 Name	Limerick Mungret College
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	52.6333
 Lon	-8.6833
 Alt	14.3
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	e
 Stat	point
 Units	hPa

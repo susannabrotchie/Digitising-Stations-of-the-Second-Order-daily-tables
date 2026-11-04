@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	SOUTHBOURNE
 Name	Southbourne
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	50.7333
 Lon	-1.8
 Alt	27.4
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	rr
 Stat	sum
 Units	mm

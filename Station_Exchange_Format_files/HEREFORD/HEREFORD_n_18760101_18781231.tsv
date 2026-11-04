@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	HEREFORD
 Name	Hereford
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	52.0833
 Lon	-2.75
 Alt	83.2
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	n
 Stat	point
 Units	%

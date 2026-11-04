@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	GLENALMOND
 Name	Glenalmond
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	56.4333
 Lon	-3.6
 Alt	161.2
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	dd
 Stat	point
 Units	degree

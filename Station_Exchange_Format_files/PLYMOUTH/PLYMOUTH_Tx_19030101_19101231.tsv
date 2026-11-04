@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	PLYMOUTH
 Name	Plymouth
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	50.3667
 Lon	-4.1333
 Alt	36.6
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	Tx
 Stat	maximum
 Units	C

@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	FORT_WILLIAM
 Name	Fort William
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	56.8167
 Lon	-5.1167
 Alt	52.1
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	w
 Stat	point
 Units	m/s

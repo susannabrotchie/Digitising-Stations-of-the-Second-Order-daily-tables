@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	SOUTHPORT
 Name	Southport
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	53.65
 Lon	-2.9833
 Alt	12.5
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	dep_wet
 Stat	point
 Units	C

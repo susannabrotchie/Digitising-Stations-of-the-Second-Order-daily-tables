@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	CHURCHSTOKE
 Name	Churchstoke
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	52.5167
 Lon	-3.0833
 Alt	165.2
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	Ta
 Stat	point
 Units	C

@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	ESKDALEMUIR
 Name	Eskdalemuir
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	55.3167
 Lon	-3.2
 Alt	244.7
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	Ta
 Stat	point
 Units	C

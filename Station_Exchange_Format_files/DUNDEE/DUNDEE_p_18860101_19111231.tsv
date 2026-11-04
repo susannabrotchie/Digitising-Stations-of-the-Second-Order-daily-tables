@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	DUNDEE
 Name	Dundee
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	56.4667
 Lon	-2.9333
 Alt	50.0
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	p
 Stat	point
 Units	hPa

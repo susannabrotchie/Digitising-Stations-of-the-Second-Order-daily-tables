@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	WOOLACOMBE
 Name	Woolacombe
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	51.1667
 Lon	-4.2
 Alt	18.0
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	dep_wet
 Stat	point
 Units	C

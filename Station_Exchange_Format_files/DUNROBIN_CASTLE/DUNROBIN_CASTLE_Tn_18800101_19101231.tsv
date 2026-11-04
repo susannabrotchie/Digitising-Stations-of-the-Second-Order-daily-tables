@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	DUNROBIN_CASTLE
 Name	Dunrobin Castle
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	57.9833
 Lon	-3.9333
 Alt	3.9
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	Tn
 Stat	minimum
 Units	C

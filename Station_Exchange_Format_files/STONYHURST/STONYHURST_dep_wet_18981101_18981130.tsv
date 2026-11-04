@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	STONYHURST
 Name	Stonyhurst
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	53.85
 Lon	-2.4667
 Alt	114.3
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	dep_wet
 Stat	point
 Units	C

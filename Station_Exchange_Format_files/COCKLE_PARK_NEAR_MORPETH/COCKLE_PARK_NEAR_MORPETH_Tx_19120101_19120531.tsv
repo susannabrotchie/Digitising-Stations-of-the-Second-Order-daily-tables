@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	COCKLE_PARK_NEAR_MORPETH
 Name	Cockle Park Near Morpeth
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	55.2167
 Lon	-1.6833
 Alt	99.0
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	Tx
 Stat	maximum
 Units	C

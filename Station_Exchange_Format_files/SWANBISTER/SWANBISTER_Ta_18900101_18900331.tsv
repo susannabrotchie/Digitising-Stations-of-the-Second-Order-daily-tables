@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	Swanbister
 Name	Swanbister
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	58.9333
 Lon	-3.1333
 Alt	52.1
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	Ta
 Stat	point
 Units	C

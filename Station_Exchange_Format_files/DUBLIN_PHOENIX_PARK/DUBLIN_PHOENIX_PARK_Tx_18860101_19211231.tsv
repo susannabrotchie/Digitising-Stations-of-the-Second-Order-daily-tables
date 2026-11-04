@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	Dublin_Phoenix_Park
 Name	Dublin Phoenix Park
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	53.3667
 Lon	-6.35
 Alt	48.4
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	Tx
 Stat	maximum
 Units	C

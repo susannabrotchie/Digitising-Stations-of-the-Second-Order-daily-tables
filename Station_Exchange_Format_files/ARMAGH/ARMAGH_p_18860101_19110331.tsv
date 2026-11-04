@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	ARMAGH
 Name	Armagh
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	54.35
 Lon	-6.65
 Alt	125.9
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	p
 Stat	point
 Units	hPa

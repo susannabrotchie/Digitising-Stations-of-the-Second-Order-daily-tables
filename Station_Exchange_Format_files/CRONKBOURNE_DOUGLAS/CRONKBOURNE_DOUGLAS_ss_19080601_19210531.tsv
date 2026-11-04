@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	CRONKBOURNE_DOUGLAS
 Name	Cronkbourne Douglas
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	54.1667
 Lon	-4.4667
 Alt	84.4
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	ss
 Stat	sum
 Units	hrs

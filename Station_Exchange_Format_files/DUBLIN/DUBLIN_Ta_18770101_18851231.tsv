@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	DUBLIN
 Name	Dublin
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	53.3333
 Lon	-6.25
 Alt	15.5
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	Ta
 Stat	point
 Units	C

@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	ST_DAVIDS_PEMBROKE
 Name	St Davids Pembroke
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	51.8833
 Lon	-5.2667
 Alt	65.8
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	rr
 Stat	sum
 Units	mm

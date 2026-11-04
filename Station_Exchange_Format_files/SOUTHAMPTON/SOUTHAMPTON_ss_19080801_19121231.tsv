@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	SOUTHAMPTON
 Name	Southampton
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	50.9167
 Lon	-1.4
 Alt	19.5
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	ss
 Stat	sum
 Units	hrs

@@ -1,11 +1,11 @@
 SEF	1.0.0
 ID	UPPINGHAM
 Name	Uppingham
-Source	Brotchie et al. (in prep.)
+Source	Brotchie et al. (in review)
 Lat	52.5833
 Lon	-0.7333
 Alt	147.5
-Link	
+Link	https://doi.org/10.5281/zenodo.23955578
 Vbl	dd
 Stat	point
 Units	degree
