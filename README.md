@@ -7,9 +7,7 @@ The script for Step 1 downloads the scanned archival documents as PDFs from thei
 Steps 3-7b cover the transcription of the data using Google Gemini 3.1 Pro Preview.<br>
 Post-processing is conducted in Steps 8a-11 and 14.<br>
 Finally, technical validation is handled by the scripts for Steps 12, 13 and 15.<br>
-The full pipeline is detailed in Brotchie et al. (in prep.).<br>
-
-<img width="600" height="550" alt="Pipeline" src="https://github.com/user-attachments/assets/da3e17e5-c7e3-4f00-aabb-d4e598eb7b9a" />
+The full pipeline is detailed in Brotchie et al. (in review).<br>
 
 The data are available in Station Exchange Format as TSV files and in CSV files that imitate the original tabular structure.<br>
 The Station Exchange Format documentation is available at https://datarescue.climate.copernicus.eu/station-exchange-format-sef
