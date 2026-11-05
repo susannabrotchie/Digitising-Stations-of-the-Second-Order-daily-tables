@@ -1,5 +1,5 @@
 # Stations-of-the-Second-Order-daily-tables
-Data and code from Brotchie et al. (in prep.) *Digitising historical climate data using the Google Gemini Large Language Model*, which rescued over 6 million observations of key climate variables including of pressure, temperature, rainfall and wind. The dataset covers 1873-1921 across the United Kingdom, Republic of Ireland, Isle of Man and Jersey, Channel Islands.<br>
+Data and code from Brotchie et al. (in review) *Digitising historical climate data using the Google Gemini Large Language Model*, which rescued over 6 million observations of key climate variables including of pressure, temperature, rainfall and wind. The dataset covers 1873-1921 across the United Kingdom, Republic of Ireland, Isle of Man and Jersey, Channel Islands.<br>
 
 This repository is archived on Zenodo at https://doi.org/10.5281/zenodo.23955578<br>
 
